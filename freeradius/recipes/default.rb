@@ -6,4 +6,4 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe "ruby::#{node[:freeradius][:install_method]}"
+include_recipe "freeradius::#{node[:freeradius][:install_method]}"

@@ -12,7 +12,7 @@ pkgs = value_for_platform(
     "default" => %w{ libfreeradius2 freeradius-common libperl5.10 libssl0.9.8 libc6 libltdl7 }
   },
   [ "centos" ] => {
-    "default" => %w{  }
+    "default" => %w{ openssl-devel }
   },
   "default" => %w{ }
 )
